@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-size: 14px;
+	        line-height: 1.8;
+	        font-weight: normal;
+	        overflow-x:hidden;
+}
+.card_box .card-body h4{
+	font-family: 'Hubballi', cursive;
+}
+.card_box .card-body p{
+	font-family: 'Hubballi', cursive;
+}
+.link{
+	border-top: #D3D3D3 solid 2px;
+}
+.header{
+	padding: 10px 0px;
+}
+.logo{
+	position: relative;
+	float: left;
+	padding-top: 11px;
+}
+.full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+nav.main-menu{
+	float: right;
+	padding-top: 70px;
+
+
+}
+ul.menu-area-main{
+	float: right;
+
+}
+ul.menu-area-main li{
+	float: left;
+     color: #fff;
+     display: flex;
+     text-decoration: none;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-right: 20px;
+     margin-bottom: 30px;
+}
+ul.menu-area-main li.active a{
+color: #FFA500;
+}
+ul.menu-area-main li a{
+color: #000;
+text-decoration: none;
+font-size: 17px;
+}
+.menu-area-main ul>li nth:child(7) a {
+     padding-right: 0px;
+}
+.info_box{
+	padding-top: 30px;
+}
+.info_img img{
+width: 50%;
+height: 200px;
+}
+.info_box p{
+	font-size: 20px;
+	padding-right: 60px;
+
+}
+.titlepage h2{
+	padding-top: 30px;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.titlepage a{
+	text-decoration: none;
+}
+
+.card-bg{
+	padding-top: 20px;
+}
+.card-body h4{
+color: #87CEEB;
+font-weight: bold;
+}
+.footer{
+	background-color: #D3D3D3;
+	padding-top: 30px;
+}
+footer{
+	padding-top: 80px;
+}
+.headinga h6{
+	font-weight: bold;
+}
+.footer-img{
+	padding-top: 30px;
+	width: 200px;
+	height: 200px;
+}
+.para{
+	padding-top: 20px;
+
+}
+.para p{
+	font-size: 20px;
+	font-family: 'Hubballi', cursive;
+}
+.para p a{
+	color: #EE7600;
+	text-decoration: none;
+	list-style-type: inherit;
+}
+.menu-bottom{
+font-weight: bold;
+
+}
+
+ul.link li{
+	float: left;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     padding-right: 10px;
+     margin-bottom: 30px;
+}
+
+ul.link li a{
+color: #EE7600;
+float: right;
+list-style-type: inherit;
+text-decoration: none;
+font-size: 14px;
+
+}
+.copyright a{
+	color: #EE7600;
+	font-size: 16px;
+}
+
+.hours{
+	color: #000;
+	padding-right: 10px;
+}
+.copyright p a{
+	text-decoration: none;
+}
+.footer-img1 img{
+	width:200px; height: 300px;
+}
+ .footer-box .footer-img1{
+ 	background-color: #EE7600;
+ 	box-shadow: #ddd 0px 5px 19px 5px;
+    
+ }
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
